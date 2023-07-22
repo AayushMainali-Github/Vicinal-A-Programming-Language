@@ -1,13 +1,11 @@
 {
-  "name": "vicinal",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "vicinal-a-programming-language",
+  "version": "0.0.1",
+  "description": "A programming language written on typescirpt.",
   "scripts": {
     "start": "tsc && node build/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Aayush Mainali",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.4.2",
