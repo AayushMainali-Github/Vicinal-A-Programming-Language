@@ -27,6 +27,14 @@ export default function (args: string): Array<Args> | null {
         });
       }
 
+      //check boolean
+      if (e == 'true' || e == 'false') {
+        returnArr.push({
+          type: 'boolean',
+          value: e,
+        });
+      }
+
       //check variable
       else if (isVariableStart(e[0])) {
         for (let j = 1; j < e.length; j++) {

@@ -28,6 +28,12 @@ Check out the `Examples` folder for some reference or read the **documentation**
     There should not be a variable with that name already defined before.
   - The second argument should either be a string type variable or a string.
 
+- `System.MakeBoolean(a,b)`  
+  - A boolean type variable `a` is created whole value is `b`.  
+  - The first argument should be the name of variable that you want to create.  
+    There should not be a variable with that name already defined before.
+  - The second argument should either be a boolean type variable or a boolean.
+
 - `System.ChangeNumber(a,b)`  
   - The value of a number type variable `a` is changed to `b`.  
   - The first argument should be a number type variable whole value you want to change.
@@ -38,6 +44,11 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The first argument should be a string type variable whole value you want to change.
   - The second argument should either be a string type variable or a string.
 
+- `System.ChangeBoolean(a,b)`  
+  - The value of a boolean type variable `a` is changed to `b`.  
+  - The first argument should be a boolean type variable whole value you want to change.
+  - The second argument should either be a boolean type variable or a boolean.
+
 - `System.PrintNumber(a)`  
   - Prints the number `a`.
   - The first argument should either be a number type variable or a number.
@@ -45,6 +56,10 @@ Check out the `Examples` folder for some reference or read the **documentation**
 - `System.PrintString(a)`  
   - Prints the string `a`.
   - The first argument should either be a string type variable or a string.
+
+- `System.PrintBoolean(a)`  
+  - Prints the boolean `a`.
+  - The first argument should either be a boolean type variable or a boolean.
 
 - `System.ViewVariables()`  
   - Prints the state of all the variables defined in the program.

@@ -5,7 +5,7 @@ export interface FunctionObject {
 }
 
 export interface Args {
-  type: 'number' | 'string' | 'variable' | 'noarg';
+  type: 'number' | 'string' | 'boolean' | 'variable' | 'noarg';
   value: string;
 }
 
