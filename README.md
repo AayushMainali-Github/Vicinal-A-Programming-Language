@@ -121,9 +121,15 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - Runs the code in file `a`.  
   - The first argument should either be a string type variable or a string which is a valid file path.
 
+- `File.IfRun(a,b)`  
+  - Runs the code in file `a` if boolean `b` is true.  
+  - The first argument should either be a string type variable or a string which is a valid file path.
+  - The second argument should either be a boolean type variable or a boolean.
+
+
 - `File.Loop(a,b)`  
   - Runs the code in file `a`, `b` times.  
-  - The first argument should either be a string type variable or a string which is a valid file path. 
+  - The first argument should either be a string type variable or a string which is a valid file path.
   - The second argument should either be a number type variable or a number.
 
 ## Variable Names

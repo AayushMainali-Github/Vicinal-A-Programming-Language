@@ -28,7 +28,7 @@ export default function (args: string): Array<Args> | null {
       }
 
       //check boolean
-      if (e == 'true' || e == 'false') {
+      else if (e == 'true' || e == 'false') {
         returnArr.push({
           type: 'boolean',
           value: e,
