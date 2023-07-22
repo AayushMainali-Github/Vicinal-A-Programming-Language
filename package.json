@@ -1,0 +1,17 @@
+{
+  "name": "vicinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "prettier": "3.0.0",
+    "typescript": "^5.1.6"
+  }
+}

@@ -1,0 +1,5 @@
+System.MakeNumber(input1,2)
+System.MakeNumber(input2,7)
+System.MakeNumber(output,0)
+Number.Add(input1,input2,output)
+System.PrintNumber(output)

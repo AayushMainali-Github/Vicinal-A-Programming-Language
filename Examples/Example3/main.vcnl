@@ -1,0 +1,4 @@
+System.MakeString(input,"Hello World")
+System.MakeNumber(output,0)
+String.Length(input,output)
+System.PrintNumber(output)
