@@ -115,6 +115,22 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The second argument should either be a string type variable or a string.
   - The third argument should be a string type variable.
 
+- `String.Repeat(a,b,c)`  
+  - Repeats `a`, `b` times and puts the value in `c`.  
+  - The first argument should either be a string type variable or a string. 
+  - The second argument should either be a number type variable or a number.
+  - The third argument should be a string type variable.
+
+- `String.LowerCase(a,b)`  
+  - Converts all the alphabets in `a` to lowercase and puts the value in `b`.  
+  - The first argument should either be a string type variable or a string. 
+  - The second argument should be a string type variable.
+
+- `String.UpperCase(a,b)`  
+  - Converts all the alphabets in `a` to uppercase and puts the value in `b`.  
+  - The first argument should either be a string type variable or a string. 
+  - The second argument should be a string type variable.
+
 ### File Functions
 
 - `File.Run(a)`  
@@ -123,13 +139,13 @@ Check out the `Examples` folder for some reference or read the **documentation**
 
 - `File.IfRun(a,b)`  
   - Runs the code in file `a` if boolean `b` is true.  
-  - The first argument should either be a string type variable or a string which is a valid file path.
+  - The first argument should either be a string type variable or a string which is a valid file path. 
   - The second argument should either be a boolean type variable or a boolean.
 
 
 - `File.Loop(a,b)`  
   - Runs the code in file `a`, `b` times.  
-  - The first argument should either be a string type variable or a string which is a valid file path.
+  - The first argument should either be a string type variable or a string which is a valid file path. 
   - The second argument should either be a number type variable or a number.
 
 ## Variable Names
@@ -143,3 +159,4 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example2` Adds two numbers and prints it.
 - `Examples/Example3` Prints the length of a string.
 - `Examples/Example4` Prints Hello World 5 times.
+- `Examples/Example5` Prints Hello World in uppercase.
