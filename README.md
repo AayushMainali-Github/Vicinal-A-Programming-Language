@@ -61,6 +61,18 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - Prints the boolean `a`.
   - The first argument should either be a boolean type variable or a boolean.
 
+- `System.RemoveNumber(a)`  
+  - Removes the number `a`.
+  - The first argument should be a number type variable.
+
+- `System.RemoveString(a)`  
+  - Removes the string `a`.
+  - The first argument should be a string type variable.
+
+- `System.RemoveBoolean(a)`  
+  - Removes the boolean `a`.
+  - The first argument should be a boolean type variable.
+
 - `System.ViewVariables()`  
   - Prints the state of all the variables defined in the program.
 
@@ -160,3 +172,53 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example3` Prints the length of a string.
 - `Examples/Example4` Prints Hello World 5 times.
 - `Examples/Example5` Prints Hello World in uppercase.
+
+# Changelogs
+
+## Version 0.1.0
+- Added changelogs
+- Added new functions
+    - `System.RemoveNumber`
+    - `System.RemoveString`
+    - `System.RemoveBoolean`
+
+## Version 0.0.4
+- Added new functions
+    - `String.Repeat`
+    - `String.LowerCase`
+    - `String.UpperCase`
+- Added new example
+    - `Examples/Example5`
+
+## Version 0.0.3
+- Added new function
+    - `File.IfRun`
+
+## Version 0.0.2
+- Added the functionality of boolean
+- Added new functions
+    - `System.MakeBoolean`
+    - `System.ChangeBoolean`
+    - `System.PrintBoolean`
+
+## Version 0.0.1
+- Initial release
+- Added the functionality of variables, strings, numbers, file system
+- Added new functions
+    - `System.MakeNumber`
+    - `System.MakeString`
+    - `System.ChangeNumber`
+    - `System.ChangeString`
+    - `System.PrintNumber`
+    - `System.PrintString`
+    - `System.ViewVariables`
+    - `String.Length`
+    - `String.Concat`
+    - `Number.Add`
+    - `Number.Subtract`
+    - `Number.Multiply`
+    - `Number.Divide`
+    - `Number.Quotient`
+    - `Number.Remainder`
+    - `File.Run`
+    - `File.Loop`

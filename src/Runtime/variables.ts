@@ -14,3 +14,7 @@ export function getVariable(variableName: string): VariableData | null {
 export function getAllVariable(): Record<string, VariableData> {
   return variables;
 }
+
+export function deleteVariable(variableName: string) {
+  delete variables[variableName];
+}
