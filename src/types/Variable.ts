@@ -1,4 +1,4 @@
 export interface VariableData {
-  type: 'number' | 'string';
+  type: 'number' | 'string' | 'boolean';
   value: string;
 }

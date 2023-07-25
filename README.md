@@ -114,6 +114,24 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The second argument should either be a number type variable or a number.
   - The third argument should be a number type variable.
 
+- `Number.Equal(a,b,c)`  
+  - If `a` is equal to `b` then the value of `c` is set to true else false.
+  - The first argument should either be a number type variable or a number. 
+  - The second argument should either be a number type variable or a number.
+  - The third argument should be a boolean type variable.
+
+- `Number.LessThan(a,b,c)`  
+  - If `a` is less than `b` then the value of `c` is set to true else false.
+  - The first argument should either be a number type variable or a number. 
+  - The second argument should either be a number type variable or a number.
+  - The third argument should be a boolean type variable.
+
+- `Number.MoreThan(a,b,c)`  
+  - If `a` is more than `b` then the value of `c` is set to true else false.
+  - The first argument should either be a number type variable or a number. 
+  - The second argument should either be a number type variable or a number.
+  - The third argument should be a boolean type variable.
+
 ### String Functions
 
 - `String.Length(a,b)`  
@@ -174,6 +192,12 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example5` Prints Hello World in uppercase.
 
 # Changelogs
+
+## Version 0.1.1
+- Added new functions
+    - `Number.Equal`
+    - `Number.LessThan`
+    - `Number.MoreThan`
 
 ## Version 0.1.0
 - Added changelogs
