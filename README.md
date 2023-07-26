@@ -161,6 +161,24 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The first argument should either be a string type variable or a string. 
   - The second argument should be a string type variable.
 
+- `String.Equal(a,b,c)`  
+  - If `a` is equal to `b` then the value of `c` is set to true else false.
+  - The first argument should either be a string type variable or a string. 
+  - The second argument should either be a string type variable or a string.
+  - The third argument should be a boolean type variable.
+
+- `String.StartsWith(a,b,c)`  
+  - If `a` starts with `b` then the value of `c` is set to true else false.
+  - The first argument should either be a string type variable or a string. 
+  - The second argument should either be a string type variable or a string.
+  - The third argument should be a boolean type variable.
+
+- `String.EndsWith(a,b,c)`  
+  - If `a` ends with `b` then the value of `c` is set to true else false.
+  - The first argument should either be a string type variable or a string. 
+  - The second argument should either be a string type variable or a string.
+  - The third argument should be a boolean type variable.
+
 ### File Functions
 
 - `File.Run(a)`  
@@ -192,6 +210,12 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example5` Prints Hello World in uppercase.
 
 # Changelogs
+
+## Version 0.1.2
+- Added new functions
+    - `String.Equal`
+    - `String.StartsWith`
+    - `String.EndsWith`
 
 ## Version 0.1.1
 - Added new functions
