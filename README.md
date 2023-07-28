@@ -132,6 +132,10 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The second argument should either be a number type variable or a number.
   - The third argument should be a boolean type variable.
 
+- `Number.ToString(a)`  
+  - Converts number `a` to string.
+  - The first argument should be a number type variable.
+
 ### String Functions
 
 - `String.Length(a,b)`  
@@ -179,6 +183,17 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The second argument should either be a string type variable or a string.
   - The third argument should be a boolean type variable.
 
+- `String.At(a,b,c)`  
+  - Changes the value of `c` to the character at position `b` in string `a`. The position starts from `0`.  
+    For example if `String.At("Hello World",1,variable)` is called then the value of variable is set to `e`.
+  - The first argument should either be a string type variable or a string. 
+  - The second argument should either be a number type variable or a number.
+  - The third argument should be a string type variable.
+
+- `String.ToNumber(a)`  
+  - Converts string `a` to number.
+  - The first argument should be a string type variable.
+
 ### File Functions
 
 - `File.Run(a)`  
@@ -210,6 +225,12 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example5` Prints Hello World in uppercase.
 
 # Changelogs
+
+## Version 0.1.3
+- Added new functions
+    - `Number.ToString`
+    - `String.ToNumber`
+    - `String.At`
 
 ## Version 0.1.2
 - Added new functions
@@ -270,3 +291,8 @@ Examples can be found in the folder named `Examples`. Description of examples ar
     - `Number.Remainder`
     - `File.Run`
     - `File.Loop`
+- Added new examples
+    - `Examples/Example1`
+    - `Examples/Example2`
+    - `Examples/Example3`
+    - `Examples/Example4`
