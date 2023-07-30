@@ -155,6 +155,18 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The second argument should either be a number type variable or a number.
   - The third argument should be a string type variable.
 
+- `String.Replace(a,b,c)`  
+  - Replaces `b` with `c` in string variable `a`.  
+  - The first argument should be a string type variable. 
+  - The second argument should either be a string type variable or a string.
+  - The third argument should either be a string type variable or a string.
+
+- `String.AllReplace(a,b,c)`  
+  - Replaces all `b` with `c` in string variable `a`.  
+  - The first argument should be a string type variable. 
+  - The second argument should either be a string type variable or a string.
+  - The third argument should either be a string type variable or a string.
+
 - `String.LowerCase(a,b)`  
   - Converts all the alphabets in `a` to lowercase and puts the value in `b`.  
   - The first argument should either be a string type variable or a string. 
@@ -205,6 +217,11 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The first argument should either be a string type variable or a string which is a valid file path. 
   - The second argument should either be a boolean type variable or a boolean.
 
+- `File.IfElseRun(a,b,c)`  
+  - Runs the code in file `a` if boolean `c` is true else runs the code in the file `b`.  
+  - The first argument should either be a string type variable or a string which is a valid file path. 
+  - The second argument should either be a string type variable or a string which is a valid file path. 
+  - The third argument should either be a boolean type variable or a boolean.
 
 - `File.Loop(a,b)`  
   - Runs the code in file `a`, `b` times.  
@@ -225,6 +242,12 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example5` Prints Hello World in uppercase.
 
 # Changelogs
+
+## Version 0.1.4
+- Added new functions
+    - `String.Replace`
+    - `String.AllReplace`
+    - `File.IfElseRun`
 
 ## Version 0.1.3
 - Added new functions

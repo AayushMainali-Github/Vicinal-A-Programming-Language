@@ -6,19 +6,16 @@ import expandArgsTypes from '../../utils/runFunc/expandArgsTypes';
 
 module.exports = function (func: FunctionObject) {
   //compute args
-  let args1Type: string = 'output:number';
-  let args1: Array<Args> | null = computeVars(expandArgsTypes(args1Type), func);
-  if (!args1) return;
-  let args2Type: string = 'input:number';
-  let args2: Array<Args> | null = computeVars(expandArgsTypes(args2Type), func);
-  if (!args2) return;
+  let argsType: string = 'nameinput:number';
+  let args: Array<Args> | null = computeVars(expandArgsTypes(argsType), func);
+  if (!args || !args[0].name) return;
 
   //set variable
   let variable: VariableData = {
     type: 'string',
-    value: args2[0].value.toString(),
+    value: args[0].value.toString(),
   };
-  setVariable(args1[0].value, variable);
+  setVariable(args[0].name, variable);
   //return
   return 1;
 };

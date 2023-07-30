@@ -28,7 +28,17 @@ export default function (types: Array<ComputeArgsData>, func: FunctionObject): A
     else if (types[i].io == 'newoutput') {
       if (args[i].type == 'variable' && !getVariable(args[i].value)) computedArgs.push(args[i]);
       else return error(errorMessage);
-    } else {
+    }
+    //input with name
+    else if (types[i].io == 'nameinput') {
+      if (args[i].type == 'variable' && getVariable(args[i].value)?.type == types[i].type) {
+        let vardata: Args = getVariable(args[i].value) as Args;
+        vardata.name = args[i].value;
+        computedArgs.push(vardata);
+      } else return error(errorMessage);
+    }
+    //error
+    else {
       return error(errorMessage);
     }
   }

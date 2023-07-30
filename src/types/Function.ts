@@ -7,6 +7,7 @@ export interface FunctionObject {
 export interface Args {
   type: 'number' | 'string' | 'boolean' | 'variable' | 'noarg';
   value: string;
+  name?: string;
 }
 
 export interface ComputeArgsData {
