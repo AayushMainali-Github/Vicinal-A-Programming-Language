@@ -132,9 +132,17 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The second argument should either be a number type variable or a number.
   - The third argument should be a boolean type variable.
 
+- `Number.Includes(a,b,c)`  
+  - If `a` includes `b` then the value of `c` is set to true else false.
+  - The first argument should either be a number type variable or a number. 
+  - The second argument should either be a number type variable or a number.
+  - The third argument should be a boolean type variable.
+
 - `Number.ToString(a)`  
   - Converts number `a` to string.
   - The first argument should be a number type variable.
+
+
 
 ### String Functions
 
@@ -195,6 +203,12 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The second argument should either be a string type variable or a string.
   - The third argument should be a boolean type variable.
 
+- `String.Includes(a,b,c)`  
+  - If `a` includes `b` then the value of `c` is set to true else false.
+  - The first argument should either be a string type variable or a string. 
+  - The second argument should either be a string type variable or a string.
+  - The third argument should be a boolean type variable.
+
 - `String.At(a,b,c)`  
   - Changes the value of `c` to the character at position `b` in string `a`. The position starts from `0`.  
     For example if `String.At("Hello World",1,variable)` is called then the value of variable is set to `e`.
@@ -205,6 +219,37 @@ Check out the `Examples` folder for some reference or read the **documentation**
 - `String.ToNumber(a)`  
   - Converts string `a` to number.
   - The first argument should be a string type variable.
+
+### Boolean Functions
+
+- `Boolean.And(a,b,c)`
+  - Passes `a` and `b` to an AND GATE and sets the output to `c`.
+  - The first argument should either be a boolean type variable or a boolean. 
+  - The second argument should either be a boolean type variable or a boolean.
+  - The third argument should be a boolean type variable.
+
+- `Boolean.Or(a,b,c)`
+  - Passes `a` and `b` to an OR GATE and sets the output to `c`.
+  - The first argument should either be a boolean type variable or a boolean. 
+  - The second argument should either be a boolean type variable or a boolean.
+  - The third argument should be a boolean type variable.
+
+- `Boolean.Not(a,b)`
+  - Passes `a` to a NOT GATE and sets the output to `b`.
+  - The first argument should either be a boolean type variable or a boolean. 
+  - The second argument should be a boolean type variable.
+
+- `Boolean.Nand(a,b,c)`
+  - Passes `a` and `b` to an NAND GATE and sets the output to `c`.
+  - The first argument should either be a boolean type variable or a boolean. 
+  - The second argument should either be a boolean type variable or a boolean.
+  - The third argument should be a boolean type variable.
+
+- `Boolean.Nor(a,b,c)`
+  - Passes `a` and `b` to an NOR GATE and sets the output to `c`.
+  - The first argument should either be a boolean type variable or a boolean. 
+  - The second argument should either be a boolean type variable or a boolean.
+  - The third argument should be a boolean type variable.
 
 ### File Functions
 
@@ -242,6 +287,16 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example5` Prints Hello World in uppercase.
 
 # Changelogs
+
+## Version 0.2.0
+- Added new functions
+    - `String.Includes`
+    - `Number.Includes`
+    - `Boolean.And`
+    - `Boolean.Or`
+    - `Boolean.Not`
+    - `Boolean.Nand`
+    - `Boolean.Nor`
 
 ## Version 0.1.4
 - Added new functions

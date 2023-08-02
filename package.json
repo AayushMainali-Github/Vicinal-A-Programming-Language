@@ -1,6 +1,6 @@
 {
   "name": "vicinal-a-programming-language",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "A programming language written on typescirpt.",
   "scripts": {
     "start": "tsc && node build/index.js"
