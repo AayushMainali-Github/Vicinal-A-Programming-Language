@@ -76,6 +76,9 @@ Check out the `Examples` folder for some reference or read the **documentation**
 - `System.ViewVariables()`  
   - Prints the state of all the variables defined in the program.
 
+- `System.RemoveVariables()`  
+  - Deletes all the variables defined in the program.
+
 ### Number Functions  
 
 - `Number.Add(a,b,c)`  
@@ -251,6 +254,18 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The second argument should either be a boolean type variable or a boolean.
   - The third argument should be a boolean type variable.
 
+- `Boolean.Xor(a,b,c)`
+  - Passes `a` and `b` to an XOR GATE and sets the output to `c`.
+  - The first argument should either be a boolean type variable or a boolean. 
+  - The second argument should either be a boolean type variable or a boolean.
+  - The third argument should be a boolean type variable.
+
+- `Boolean.Xnor(a,b,c)`
+  - Passes `a` and `b` to an XNOR GATE and sets the output to `c`.
+  - The first argument should either be a boolean type variable or a boolean. 
+  - The second argument should either be a boolean type variable or a boolean.
+  - The third argument should be a boolean type variable.
+
 ### File Functions
 
 - `File.Run(a)`  
@@ -287,6 +302,12 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example5` Prints Hello World in uppercase.
 
 # Changelogs
+
+## Version 0.2.1
+- Added new functions
+    - `Boolean.Xor`
+    - `Boolean.Xnor`
+    - `System.RemoveVariables`
 
 ## Version 0.2.0
 - Added new functions

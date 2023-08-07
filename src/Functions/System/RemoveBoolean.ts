@@ -1,11 +1,11 @@
-import { deleteVariable } from '../../Runtime/variables';
-import { FunctionObject, Args } from '../../types/Function';
-import computeVars from '../../utils/runFunc/computeVars';
-import expandArgsTypes from '../../utils/runFunc/expandArgsTypes';
+import { deleteVariable } from "../../utils/runtime/variables";
+import { FunctionObject, Args } from "../../types/Function";
+import computeVars from "../../utils/runFunc/computeVars";
+import expandArgsTypes from "../../utils/runFunc/expandArgsTypes";
 
 module.exports = function (func: FunctionObject) {
   //compute args
-  let argsType: string = 'output:boolean';
+  let argsType: string = "output:boolean";
   let args: Array<Args> | null = computeVars(expandArgsTypes(argsType), func);
   if (!args) return;
 

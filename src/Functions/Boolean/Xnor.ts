@@ -13,7 +13,7 @@ module.exports = function (func: FunctionObject) {
   //set variable
   let variable: VariableData = {
     type: "boolean",
-    value: `${args[0].value == "true" && args[1].value == "true"}`,
+    value: `${args[0].value == args[1].value}`,
   };
   setVariable(args[2].value, variable);
 

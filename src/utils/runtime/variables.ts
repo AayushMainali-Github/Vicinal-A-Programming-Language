@@ -1,6 +1,6 @@
-import { VariableData } from '../types/Variable';
+import { VariableData } from "../../types/Variable";
 
-let variables: Record<string, VariableData> = {};
+export let variables: Record<string, VariableData> = {};
 
 export function setVariable(variableName: string, variableData: VariableData) {
   variables[variableName] = variableData;
@@ -17,4 +17,8 @@ export function getAllVariable(): Record<string, VariableData> {
 
 export function deleteVariable(variableName: string) {
   delete variables[variableName];
+}
+
+export function deleteAllVariables() {
+  variables = {};
 }

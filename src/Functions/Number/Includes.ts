@@ -1,4 +1,4 @@
-import { setVariable } from "../../Runtime/variables";
+import { setVariable } from "../../utils/runtime/variables";
 import { FunctionObject, Args } from "../../types/Function";
 import { VariableData } from "../../types/Variable";
 import computeVars from "../../utils/runFunc/computeVars";

@@ -1,15 +1,15 @@
-import { setVariable } from '../../Runtime/variables';
-import { FunctionObject, Args } from '../../types/Function';
-import { VariableData } from '../../types/Variable';
-import computeVars from '../../utils/runFunc/computeVars';
-import expandArgsTypes from '../../utils/runFunc/expandArgsTypes';
-import error from '../../utils/error';
+import { setVariable } from "../../utils/runtime/variables";
+import { FunctionObject, Args } from "../../types/Function";
+import { VariableData } from "../../types/Variable";
+import computeVars from "../../utils/runFunc/computeVars";
+import expandArgsTypes from "../../utils/runFunc/expandArgsTypes";
+import error from "../../utils/error";
 
 module.exports = function (func: FunctionObject) {
   const errorMessage = `Invalid argument in the function ${func.object}.${func.function}(). Check out documentation.`;
 
   //compute args
-  let argsType: string = 'input:string,input:number,output:string';
+  let argsType: string = "input:string,input:number,output:string";
   let args: Array<Args> | null = computeVars(expandArgsTypes(argsType), func);
   if (!args) return;
 
@@ -18,7 +18,7 @@ module.exports = function (func: FunctionObject) {
 
   //set variable
   let variable: VariableData = {
-    type: 'string',
+    type: "string",
     value: `${args[0].value[Number(args[1].value)]}`,
   };
   setVariable(args[2].value, variable);
