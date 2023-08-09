@@ -266,6 +266,41 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The second argument should either be a boolean type variable or a boolean.
   - The third argument should be a boolean type variable.
 
+### Date Functions
+
+- `Date.Full(a)`
+  - Sets the value of string variable `a` to the current full date and time in the format `MM/dd/yyyy hh:mm:ss`.  
+  - The third argument should be a string type variable.
+
+- `Date.Time(a)`
+  - Sets the value of string variable `a` to the current time in the format `hh:mm:ss`.  
+  - The third argument should be a string type variable.
+
+- `Date.Year(a)`
+  - Sets the value of string variable `a` to the current year in the format `yyyy`.  
+  - The third argument should be a string type variable.
+
+- `Date.Month(a)`
+  - Sets the value of string variable `a` to the current month in the format `MM`.  
+  - The third argument should be a string type variable.
+
+- `Date.Date(a)`
+  - Sets the value of string variable `a` to the current date in the format `dd`.  
+  - The third argument should be a string type variable.
+
+- `Date.Hour(a)`
+  - Sets the value of string variable `a` to the current hour in the format `hh`.  
+  - The third argument should be a string type variable.
+
+- `Date.Minute(a)`
+  - Sets the value of string variable `a` to the current minute in the format `mm`.  
+  - The third argument should be a string type variable.
+
+- `Date.Second(a)`
+  - Sets the value of string variable `a` to the current second in the format `ss`.  
+  - The third argument should be a string type variable.
+
+
 ### File Functions
 
 - `File.Run(a)`  
@@ -302,6 +337,18 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example5` Prints Hello World in uppercase.
 
 # Changelogs
+
+## Version 0.3.0
+- Added the functionality of date
+- Added new functions
+    - `Date.Time`
+    - `Date.Full`
+    - `Date.Year`
+    - `Date.Month`
+    - `Date.Date`
+    - `Date.Hour`
+    - `Date.Minute`
+    - `Date.Second`
 
 ## Version 0.2.1
 - Added new functions
