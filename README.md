@@ -270,35 +270,43 @@ Check out the `Examples` folder for some reference or read the **documentation**
 
 - `Date.Full(a)`
   - Sets the value of string variable `a` to the current full date and time in the format `MM/dd/yyyy hh:mm:ss`.  
-  - The third argument should be a string type variable.
+  - The first argument should be a string type variable.
 
 - `Date.Time(a)`
   - Sets the value of string variable `a` to the current time in the format `hh:mm:ss`.  
-  - The third argument should be a string type variable.
+  - The first argument should be a string type variable.
 
 - `Date.Year(a)`
   - Sets the value of string variable `a` to the current year in the format `yyyy`.  
-  - The third argument should be a string type variable.
+  - The first argument should be a string type variable.
 
 - `Date.Month(a)`
   - Sets the value of string variable `a` to the current month in the format `MM`.  
-  - The third argument should be a string type variable.
+  - The first argument should be a string type variable.
 
 - `Date.Date(a)`
   - Sets the value of string variable `a` to the current date in the format `dd`.  
-  - The third argument should be a string type variable.
+  - The first argument should be a string type variable.
+
+- `Date.Day(a)`
+  - Sets the value of string variable `a` to the current day of the week.  
+  - The first argument should be a string type variable.
 
 - `Date.Hour(a)`
   - Sets the value of string variable `a` to the current hour in the format `hh`.  
-  - The third argument should be a string type variable.
+  - The first argument should be a string type variable.
 
 - `Date.Minute(a)`
   - Sets the value of string variable `a` to the current minute in the format `mm`.  
-  - The third argument should be a string type variable.
+  - The first argument should be a string type variable.
 
 - `Date.Second(a)`
   - Sets the value of string variable `a` to the current second in the format `ss`.  
-  - The third argument should be a string type variable.
+  - The first argument should be a string type variable.
+
+- `Date.Millisecond(a)`
+  - Sets the value of string variable `a` to the current millisecond.  
+  - The first argument should be a string type variable.
 
 
 ### File Functions
@@ -337,6 +345,12 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example5` Prints Hello World in uppercase.
 
 # Changelogs
+
+## Version 0.3.1
+- Fixed some errors in the docs
+- Added new functions
+    - `Date.Day`
+    - `Date.Millisecond`
 
 ## Version 0.3.0
 - Added the functionality of date
