@@ -117,6 +117,38 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The second argument should either be a number type variable or a number.
   - The third argument should be a number type variable.
 
+- `Number.Power(a,b,c)`  
+  - Calculates `a` to the power `b` and puts the result in `c`.
+  - The first argument should either be a number type variable or a number. 
+  - The second argument should either be a number type variable or a number.
+  - The third argument should be a number type variable.
+
+- `Number.Root(a,b,c)`  
+  - Calculates `b`th root of `a` and puts the result in `c`.
+  - The first argument should either be a number type variable or a number. 
+  - The second argument should either be a number type variable or a number.
+  - The third argument should be a number type variable.
+
+- `Number.Square(a,b)`  
+  - Calculates the square of `a` and puts the result in `b`.
+  - The first argument should either be a number type variable or a number.
+  - The second argument should be a number type variable.
+
+- `Number.Cube(a,b)`  
+  - Calculates the cube of `a` and puts the result in `b`.
+  - The first argument should either be a number type variable or a number.
+  - The second argument should be a number type variable.
+
+- `Number.SqRoot(a,b)`  
+  - Calculates the square root of `a` and puts the result in `b`.
+  - The first argument should either be a number type variable or a number.
+  - The second argument should be a number type variable.'
+
+- `Number.CuRoot(a,b)`  
+  - Calculates the cube root of `a` and puts the result in `b`.
+  - The first argument should either be a number type variable or a number.
+  - The second argument should be a number type variable.
+
 - `Number.Equal(a,b,c)`  
   - If `a` is equal to `b` then the value of `c` is set to true else false.
   - The first argument should either be a number type variable or a number. 
@@ -345,6 +377,15 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example5` Prints Hello World in uppercase.
 
 # Changelogs
+
+## Version 0.3.2
+- Added new functions
+    - `Number.Power`
+    - `Number.Root`
+    - `Number.Square`
+    - `Number.Cube`
+    - `Number.SqRoot`
+    - `Number.CuRoot`
 
 ## Version 0.3.1
 - Fixed some errors in the docs
