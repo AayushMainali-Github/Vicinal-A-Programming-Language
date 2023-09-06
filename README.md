@@ -149,6 +149,41 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - The first argument should either be a number type variable or a number.
   - The second argument should be a number type variable.
 
+- `Number.Absolute(a,b)`  
+  - Calculates the absolute value of `a` and puts the result in `b`.
+  - The first argument should either be a number type variable or a number.
+  - The second argument should be a number type variable.
+
+- `Number.Random(a)`  
+  - Sets the value of `a` to random float between 0 and 1 (0 <= x < 1)
+  - The first argument should be a number type variable.
+
+- `Number.Round(a,b)`  
+  - Rounds `a` to the nearest integer and puts the result in `b`.
+  - The first argument should either be a number type variable or a number.
+  - The second argument should be a number type variable.
+
+- `Number.Floor(a,b)`  
+  - Rounds down `a` to the nearest integer and puts the result in `b`.
+  - The first argument should either be a number type variable or a number.
+  - The second argument should be a number type variable.
+
+- `Number.Ceil(a,b)`  
+  - Rounds up `a` to the nearest integer and puts the result in `b`.
+  - The first argument should either be a number type variable or a number.
+  - The second argument should be a number type variable.
+
+- `Number.Trunc(a,b)`  
+  - Removes the fractional part of `a` and puts the result in `b`.
+  - The first argument should either be a number type variable or a number.
+  - The second argument should be a number type variable.
+
+- `Number.FixedTo(a,b,c)`  
+  - Converts `a` to a number with `b` number of decimals and puts the result in `c`.
+  - The first argument should either be a number type variable or a number. 
+  - The second argument should either be a number type variable or a number.
+  - The third argument should be a number type variable.
+
 - `Number.Equal(a,b,c)`  
   - If `a` is equal to `b` then the value of `c` is set to true else false.
   - The first argument should either be a number type variable or a number. 
@@ -377,6 +412,16 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example5` Prints Hello World in uppercase.
 
 # Changelogs
+
+## Version 0.3.3
+- Added new functions
+    - `Number.Absolute`
+    - `Number.Random`
+    - `Number.Round`
+    - `Number.Floor`
+    - `Number.Ceil`
+    - `Number.Trunc`
+    - `Number.FixedTo`
 
 ## Version 0.3.2
 - Added new functions
