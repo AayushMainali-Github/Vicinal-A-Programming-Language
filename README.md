@@ -413,6 +413,9 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 
 # Changelogs
 
+## Version 0.3.4
+- Fixed a bug where you couldn't create a number variable with negative numbers or floats
+
 ## Version 0.3.3
 - Added new functions
     - `Number.Absolute`
