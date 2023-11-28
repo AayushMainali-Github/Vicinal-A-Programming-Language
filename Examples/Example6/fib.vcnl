@@ -1,0 +1,4 @@
+System.PrintNumber(a)
+Number.Add(a,b,c)
+System.ChangeNumber(a,b)
+System.ChangeNumber(b,c)

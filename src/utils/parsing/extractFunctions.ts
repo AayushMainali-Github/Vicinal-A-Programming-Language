@@ -1,8 +1,7 @@
-import { Args, FunctionObject } from '../../types/Function';
-import fs from 'fs';
-import error from '../error';
-import skip from './skip';
-import validateArgs from './validateArgs';
+import fs from "fs";
+import error from "../error";
+import skip from "./skip";
+import validateArgs from "./validateArgs";
 
 export default async function (sourceCode: string): Promise<Array<FunctionObject> | null> {
   let returnArray: Array<FunctionObject> = [];
@@ -13,7 +12,7 @@ export default async function (sourceCode: string): Promise<Array<FunctionObject
     if (i >= sourceCode.length) break;
 
     //find object
-    const objects: Array<string> = await fs.readdirSync('./src/Functions');
+    const objects: Array<string> = fs.readdirSync("./src/Functions");
     if (objects.length < 1) return error(`Unexpected token`);
     let noObjectFound: boolean = true;
 
@@ -24,11 +23,11 @@ export default async function (sourceCode: string): Promise<Array<FunctionObject
       if (sourceCode.slice(i, i + obj.length) == obj) {
         //check if there is a . after object
         i = i + obj.length;
-        if (sourceCode[i] != '.') return error(`Unexpected token`);
+        if (sourceCode[i] != ".") return error(`Unexpected token`);
         i++;
 
         //find functions
-        const functions: Array<string> = await fs.readdirSync(`./src/Functions/${obj}/`);
+        const functions: Array<string> = fs.readdirSync(`./src/Functions/${obj}/`);
         if (functions.length < 1) return error(`Unexpected token`);
         let noFunctionFound: boolean = true;
 
@@ -39,13 +38,13 @@ export default async function (sourceCode: string): Promise<Array<FunctionObject
           if (sourceCode.slice(i, i + func.length) == func) {
             //check if there is a open parathesis
             i = i + func.length;
-            if (sourceCode[i] != '(') return error(`Unexpected token`);
+            if (sourceCode[i] != "(") return error(`Unexpected token`);
 
             //check for close parenthesis and arguments
             i++;
             let args: Array<Args> | null = null;
             for (let l = i; l < sourceCode.length; l++) {
-              if (sourceCode[l] == ')') {
+              if (sourceCode[l] == ")") {
                 args = validateArgs(sourceCode.slice(i, l));
                 i = l;
                 break;

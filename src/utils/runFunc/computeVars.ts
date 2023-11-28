@@ -1,5 +1,4 @@
 import { getVariable } from "../runtime/variables";
-import { Args, ComputeArgsData, FunctionObject } from "../../types/Function";
 import error from "../error";
 
 export default function (types: Array<ComputeArgsData>, func: FunctionObject): Array<Args> | null {

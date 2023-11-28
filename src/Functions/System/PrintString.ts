@@ -1,10 +1,9 @@
-import { FunctionObject, Args } from '../../types/Function';
-import computeVars from '../../utils/runFunc/computeVars';
-import expandArgsTypes from '../../utils/runFunc/expandArgsTypes';
+import computeVars from "../../utils/runFunc/computeVars";
+import expandArgsTypes from "../../utils/runFunc/expandArgsTypes";
 
 module.exports = function (func: FunctionObject) {
   //compute args
-  let argsType: string = 'input:string';
+  let argsType: string = "input:string";
   let args: Array<Args> | null = computeVars(expandArgsTypes(argsType), func);
   if (!args) return;
 

@@ -1,5 +1,4 @@
 import { deleteVariable } from "../../utils/runtime/variables";
-import { FunctionObject, Args } from "../../types/Function";
 import computeVars from "../../utils/runFunc/computeVars";
 import expandArgsTypes from "../../utils/runFunc/expandArgsTypes";
 

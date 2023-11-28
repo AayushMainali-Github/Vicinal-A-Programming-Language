@@ -1,0 +1,4 @@
+System.MakeNumber(a,2)
+System.MakeNumber(b,11)
+System.MakeNumber(c,13)
+File.Loop("fib",20)

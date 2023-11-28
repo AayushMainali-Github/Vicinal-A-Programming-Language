@@ -410,8 +410,14 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example3` Prints the length of a string.
 - `Examples/Example4` Prints Hello World 5 times.
 - `Examples/Example5` Prints Hello World in uppercase.
+- `Examples/Example6` Prints the Fibonacci series.
 
 # Changelogs
+
+## Version 0.3.5
+- Some minor changes in the codebase regarding type declarations.
+- Added new examples
+    - `Examples/Example6`
 
 ## Version 0.3.4
 - Fixed a bug where you couldn't create a number variable with negative numbers or floats

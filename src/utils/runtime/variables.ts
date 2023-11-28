@@ -1,5 +1,3 @@
-import { VariableData } from "../../types/Variable";
-
 export let variables: Record<string, VariableData> = {};
 
 export function setVariable(variableName: string, variableData: VariableData) {

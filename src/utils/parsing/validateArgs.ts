@@ -1,4 +1,3 @@
-import { Args } from "../../types/Function";
 import isNumber from "./validators/isNumber";
 import isNumberStart from "./validators/isNumberStart";
 import isVariable from "./validators/isVariable";
