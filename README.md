@@ -375,6 +375,48 @@ Check out the `Examples` folder for some reference or read the **documentation**
   - Sets the value of string variable `a` to the current millisecond.  
   - The first argument should be a string type variable.
 
+### UtcDate Functions
+
+- `UtcDate.Full(a)`
+  - Sets the value of string variable `a` to the current utc full date and time in the format `MM/dd/yyyy hh:mm:ss`.  
+  - The first argument should be a string type variable.
+
+- `UtcDate.Time(a)`
+  - Sets the value of string variable `a` to the current utc time in the format `hh:mm:ss`.  
+  - The first argument should be a string type variable.
+
+- `UtcDate.Year(a)`
+  - Sets the value of string variable `a` to the current utc year in the format `yyyy`.  
+  - The first argument should be a string type variable.
+
+- `UtcDate.Month(a)`
+  - Sets the value of string variable `a` to the current utc month in the format `MM`.  
+  - The first argument should be a string type variable.
+
+- `UtcDate.Date(a)`
+  - Sets the value of string variable `a` to the current utc date in the format `dd`.  
+  - The first argument should be a string type variable.
+
+- `UtcDate.Day(a)`
+  - Sets the value of string variable `a` to the current utc day of the week.  
+  - The first argument should be a string type variable.
+
+- `UtcDate.Hour(a)`
+  - Sets the value of string variable `a` to the current utc hour in the format `hh`.  
+  - The first argument should be a string type variable.
+
+- `UtcDate.Minute(a)`
+  - Sets the value of string variable `a` to the current utc minute in the format `mm`.  
+  - The first argument should be a string type variable.
+
+- `UtcDate.Second(a)`
+  - Sets the value of string variable `a` to the current utc second in the format `ss`.  
+  - The first argument should be a string type variable.
+
+- `UtcDate.Millisecond(a)`
+  - Sets the value of string variable `a` to the current utc millisecond.  
+  - The first argument should be a string type variable.
+
 
 ### File Functions
 
@@ -413,6 +455,20 @@ Examples can be found in the folder named `Examples`. Description of examples ar
 - `Examples/Example6` Prints the Fibonacci series.
 
 # Changelogs
+
+## Version 0.3.6
+- Added the functionality of utc timezone date
+- Added new functions
+    - `UtcDate.Time`
+    - `UtcDate.Full`
+    - `UtcDate.Year`
+    - `UtcDate.Month`
+    - `UtcDate.Date`
+    - `UtcDate.Hour`
+    - `UtcDate.Minute`
+    - `UtcDate.Second`
+    - `UtcDate.Day`
+    - `UtcDate.Millisecond`
 
 ## Version 0.3.5
 - Some minor changes in the codebase regarding type declarations.
